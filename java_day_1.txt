@@ -1,0 +1,65 @@
+Java - JDK SE
+- Java Development Kit
+
+Java SE - Standard Edition
+Java EE - Enterprise Edition
+
+Code Editor
+- VS Code
+
+IDE - Integrated Development Environment
+
+1. Download and install jdk
+2. Set path in environment variable till bin folder of java
+
+Object Oriented
+- class and object
+
+- Every java program start with a class
+- Class name will always start with a capital letter
+- Class name will always be same as file name
+- Class name starts with either alphabet or special symbole (_, $)
+
+
+class X {
+   public static void main(String args[]) {
+       System.out.println("Hello World...");
+   }
+}
+
+
+Steps to execute java code
+1. Compile Java Code using command : javac ClassName.java
+   javac comes from JDK
+2. Execute the code using command : java ClassName  
+   java comes from JRE
+
+
+Main Method
+- Entry point of program
+- Without main java will compile the code and convert it into byte code as well, but it cannot execute the code or interpret the code
+
+
+Why Main is Public ?
+- JRE uses main
+- java <byteCode>
+- java triggers JRE, and JRE starts searching for main method
+- JRE loads our class into memory
+
+Why Main is Static ?
+- Static things are loaded into memory when class is loaded...
+
+Why void ?
+- void is a return type of main function
+- main returns nothing, that's why main in void
+
+
+
+
+
+
+
+
+
+
+

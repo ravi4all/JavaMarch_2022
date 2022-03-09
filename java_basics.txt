@@ -1,0 +1,71 @@
+Basic Salary
+- 50000
+
+HRA - 25%
+DA  - 50%
+TA  - 15%
+
+TDS - 8%
+
+earning = (basic salary * hra/100) + (basic salary * da/100)
+deductions = (basic salary * tds / 100)
+
+net_salary = earnings - deduction
+
+Pre-defined class
+ - System
+ - PrintStream
+ - InputStream
+
+System.out
+System.in
+System.err
+
+print vs println
+
+InputStream {
+   Logic to take input from user...
+}
+
+PrintStream {
+   Logic to take output from user
+   void print() {
+ 
+   }
+   void println() {
+      
+   }
+}
+
+
+System {
+   final static InputStream in = null;
+   final static PrintStream out = null;
+}
+
+Custom Class
+class HelloWorld {
+   public static void main(){ 
+       System.out.println("Hello world...");
+   }
+
+}
+
+Streaming - flow of data
+
+Scanner - Pre-defined class
+
+Buffer - Chunks of data
+
+
+language       - java.lang.*
+utilities      - java.util.*
+input/output   - java.io.*
+
+
+
+
+
+
+
+
