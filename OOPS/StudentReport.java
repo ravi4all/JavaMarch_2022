@@ -12,11 +12,11 @@ public class StudentReport {
     public static void main(String[] args) {
         StudentDetails ram = new StudentDetails();
 
-        ram.rollno = 101;
-        ram.name = "Ram Sharma";
-        ram.course = "Btech";
-        ram.address = "Delhi";
-        ram.fees = 4500.00;
+        // ram.rollno = 101;
+        // ram.name = "Ram Sharma";
+        // ram.course = "Btech";
+        // ram.address = "Delhi";
+        // ram.fees = 4500.00;
 
         System.out.println("Roll No is : "+ram.rollno);
         System.out.println("Name is : "+ram.name);
