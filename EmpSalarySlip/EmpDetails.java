@@ -82,9 +82,12 @@ public class EmpDetails {
         return salary * tds/100;
     }
 
-    public double showEmp() {
+    public String showEmp() {
         this.salary = this.salary + getHRA() + getDA() + getTA() - getTDS();
-        return this.salary;
+        CommonUtils utils = new CommonUtils();
+        name = utils.formatName(name);
+        String salary = utils.formatSalary(this.salary);
+        return salary;
     }
 
 }
