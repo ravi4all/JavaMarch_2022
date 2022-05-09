@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class ExceptionDemo {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         try {
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Enter first number : ");
             int fnum = scanner.nextInt();
     
@@ -24,8 +24,6 @@ public class ExceptionDemo {
 
             int mul = fnum * snum;
             System.out.println("Multiplication is :: " + mul);
-    
-            scanner.close();
         }
 
         catch(InputMismatchException e) {
@@ -38,6 +36,12 @@ public class ExceptionDemo {
 
         catch(Exception e) {
             System.out.println("Some other error...Please contact admin");
+        }
+
+        finally {
+            System.out.println("Finally Executed...");
+            scanner.close();
+            System.out.println("Scanner Closed...");
         }
 
     }
