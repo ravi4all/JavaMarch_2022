@@ -28,6 +28,7 @@ public class UserView {
 		frame.setBounds(100, 100, 917, 533);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
+		frame.setLocationRelativeTo(null);
 		
 		JButton btnNewButton = new JButton("Login");
 		btnNewButton.setFont(new Font("Dialog", Font.BOLD, 22));
